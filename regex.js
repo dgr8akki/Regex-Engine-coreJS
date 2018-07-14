@@ -16,13 +16,13 @@ function isEquals (pattern, text) {
 
 function match(pattern, text) {
   if (pattern === "") {
-    return true
+    return true;
   } else if (pattern === "$" && text === "") {
-    return true
+    return true;
   } else if (pattern[1] === "?") {
-    return matchQuestion(pattern, text)
+    return matchQuestion(pattern, text);
   } else if (pattern[1] === "*") {
-    return matchStar(pattern, text)
+    return matchStar(pattern, text);
   }
 
   return isEquals(pattern[0], text[0])
