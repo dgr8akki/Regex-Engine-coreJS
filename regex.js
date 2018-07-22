@@ -1,6 +1,6 @@
 function isEquals (pattern, text) {
   if (!pattern) {
-    return true;  // Any text matches with empty pattern
+    return true;  //Any text matches with empty pattern
   }
 
   if (!text) {
