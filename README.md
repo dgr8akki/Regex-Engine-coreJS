@@ -21,4 +21,6 @@ numbers, underscores and hyphens. We also want to limit the number of characters
 in username so it does not look ugly. These all purposes are served by Regular
 Expressions a.k.a Regex.
 
-### Download it and start using it in any js flavoured app.
+## Update
+
+Regex Engine in Functional Javascript is cooking at [Regex Engine in Function JS](https://github.com/dgr8akki/Regex-Engine-FunctionalJS)
