@@ -21,4 +21,4 @@ numbers, underscores and hyphens. We also want to limit the number of characters
 in username so it does not look ugly. These all purposes are served by Regular
 Expressions a.k.a Regex.
 
-## Let's code it.
+### Download it and start using it in any js flavoured app.
