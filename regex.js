@@ -13,3 +13,12 @@ function isEquals (pattern, text) {
 
   return pattern === text;
 }
+
+function match(pattern, text) {
+  if (pattern === "") {
+    return true // Our base case - if the pattern is empty, any inputted text is a match
+  }
+
+  return isEquals(pattern[0], text[0])
+  && match(pattern.slice(1), text.slice(1))
+}
