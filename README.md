@@ -23,4 +23,4 @@ Expressions a.k.a Regex.
 
 ## Update
 
-Regex Engine in Functional Javascript is cooking at [Regex Engine in Function JS](https://github.com/dgr8akki/Regex-Engine-FunctionalJS)
+Regex Engine in Functional Javascript is cooking at [Regex Engine in Function JS](https://github.com/dgr8akki/Regex-Engine-FunctionalJS)(Under dev)
