@@ -1,10 +1,10 @@
 function isEquals (pattern, text) {
   if (!pattern) {
-    return true;  //Any text matches with empty pattern
+    return true;  // Any text matches with empty pattern
   }
 
   if (!text) {
-    return false; //If pattern is defined, text can't be empty
+    return false; // If pattern is defined, text can't be empty
   }
 
   if (pattern === ".") {
