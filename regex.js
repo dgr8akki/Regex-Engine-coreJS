@@ -4,7 +4,7 @@ function isEquals (pattern, text) {
   }
 
   if (!text) {
-    return false; //If pattern is defined, Text can't be empty
+    return false; //If pattern is defined, text can't be empty
   }
 
   if (pattern === ".") {
